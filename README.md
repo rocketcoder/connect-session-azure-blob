@@ -1,22 +1,17 @@
 connect-session-azure-blob
 ========
 
-connect session backed by Azure blob store.  I needed a simple and cheap connect session store.  Azure Blob storage is as super cheap.  So this session store is backed by it.
+connect session backed by Azure blob store.  I needed a simple and cheap connect session store.  Azure Blob storage is as super cheap.  
 If you need wicked fast and expensive look at Azure Cache or Redis.  If you need dirt cheap - then you have come to the right place.  
 
 Quick Start
 ---
-
-
-
-Examples
----
 Express 4 App Usage.  
-1. You need an Azure Account 
-2. Create a container called websessions
-3. Create your express 4 app
-4. npm install azure-storage --save
-5. Add the code in the example below.
+*1. You need an Azure Account 
+*2. Create a blob container called websessions
+*3. Create your express 4 app
+*4. npm install azure-storage --save
+*5. Add the code in the example below.
 
 ```javascript
 var express = require('express');
